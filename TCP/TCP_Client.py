@@ -3,8 +3,8 @@
 
 import socket
 
-HOST = ''  # IP do host(servidor)
-PORT = 0        # A porta utilizada pelo servidor
+HOST = '127.0.0.1'  # IP do host(servidor)
+PORT = 5005        # A porta utilizada pelo servidor
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))

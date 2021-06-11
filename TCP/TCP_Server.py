@@ -3,8 +3,8 @@
 
 import socket
 
-HOST = ''  # localhost padrão
-PORT = 0        # Porta a ser utilizada
+HOST = '127.0.0.1'  # localhost padrão
+PORT = 5005        # Porta a ser utilizada
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))
